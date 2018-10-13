@@ -1,0 +1,43 @@
+{
+  "name": "loopback-mixin-dotted-key",
+  "version": "0.0.1",
+  "description": "loopback mixin to workaround dotted keys in MongoDB",
+  "main": "index.js",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: to be implemented\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MohammedEssehemy/loopback-mixin-dotted-key.git"
+  },
+  "keywords": [
+    "loopback",
+    "mixin",
+    "dotted",
+    "key",
+    "MongoDB"
+  ],
+  "author": "Mohammed Essehemy <mohammedessehemy@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "husky": "^1.1.1",
+    "lint-staged": "^7.3.0"
+  }
+}
