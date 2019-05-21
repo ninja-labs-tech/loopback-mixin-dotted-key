@@ -1,4 +1,4 @@
-### MONGO-SEQ [![Build Status](https://travis-ci.com/MohammedEssehemy/loopback-mixin-dotted-key.svg?branch=master)](https://travis-ci.com/MohammedEssehemy/loopback-mixin-dotted-key)
+### loopback-mixin-dotted-key [![Build Status](https://travis-ci.com/MohammedEssehemy/loopback-mixin-dotted-key.svg?branch=master)](https://travis-ci.com/MohammedEssehemy/loopback-mixin-dotted-key)
 
 [loopback v3](https://loopback.io/) mixin to enable changing dotted keys before storing in MongoDB.
 
