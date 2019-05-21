@@ -23,8 +23,8 @@ DottedKeysReplace(app);
 ```json
 "mixins": {
   "DottedKeysReplace" : {
-    "haystack": ".", // char to replace
-    "replace": "#", // char to replace with
+    "haystack": ".",
+    "replace": "#",
   }
 }
 ```
