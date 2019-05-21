@@ -11,6 +11,6 @@ deploy:
   provider: npm
   email: mohammedessehemy@gmail.com
   api_key:
-    secure: q1HUHuUxAIlRfqSc5iv/gUSmgyupSpPmp7sTYOa3TAUxDdQkr8WoZgpbqfBZQ+T3gah/KkHhEkuFIqePgYeO0AEgP7dDFLD7jMAQEPSfnrDIuJ8AGPhF600PviELutXCXgy3LW4YeHRl4hCgfAKUOSwGMb+biacyZ2VwWIxC5fNrjnJ6c8tFsRylTQFpSLnj0Ee9VQkgMcnJF/espA6DPLELJaHdI+KpOezYwV/1OMTjSqFVHQJhhk9/safItmmHuNGAp7fv9ChNivPCs8HWQqkOB7QsojE/oFfmJzvkdhhfsr6doCdHDnZcmr/+jQOyQQjfC0PG96zZTKIeYZpABTsJX847CB29btfCU9NdLRMF99+W0AGIe+KHCKAE1p1YvV39Xnv0KmG3o/AnLzBA2Th/z2WCPeLrBpGaYj0Qtm52nFeMQor0HvY4/Yk2a8rVh1jnh3CEi7Tlp86WeHcUNj6uQ2d/uMEbA7OcD6FH0wzr7Zvm4wg7dIfga41s1QP8zcodIaB19gfKREdcexhFMwLcxRsLOaYcA9IpXB47WGacPE3oKc1xqfUnrM/+daov6blUIH8fMLvFvGJRSmRPVD/HuP1OaUuOj/TOI9NLn3n8WleM9/M48TH42m/5sXE8PhUdWzB2wWjQUZdu6wRIuivx7I4zgyrljoq5wRfJQ8E=
+    secure: $NPM_TOKEN
   on:
     branch: master
