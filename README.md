@@ -23,7 +23,7 @@ DottedKeysReplace(app);
 ```json
 "mixins": {
   "DottedKeysReplace" : {
-    "haystack": ".",
+    "search": ".",
     "replace": "#",
   }
 }
@@ -31,7 +31,7 @@ DottedKeysReplace(app);
 
 ### options ###
 
-_haystack_: char to replace, defaults to `.`.
+_search_: char to replace, defaults to `.`.
 
 _replace_: char to replace with, defaults to `#`.
 
