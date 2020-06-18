@@ -1,6 +1,6 @@
 {
   "name": "loopback-mixin-dotted-key",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "loopback mixin to workaround dotted keys in MongoDB",
   "main": "index.js",
   "husky": {
